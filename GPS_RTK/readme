@@ -1,0 +1,7 @@
+LAB2
+
+The repository src contains the following:
+1.gps_driver - contains the custom message file, publisher_node.py script which reads data from the device and stores it
+2. Data - contains the rosbags and converted csv datafilee
+3. Analysis script - I used the same script and changed the input data file and row column vectors to obtain all the different plots. The script only shows one such example. It does contain the mean, median, standard deviation, best fit plot and error calculations used for each plot. 
+4. Report.pdf - Analysis report for the collected data
