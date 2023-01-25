@@ -1,0 +1,8 @@
+The repository src contains the following:
+1.Driver - contains the imu_driver.py script which reads data from the device and stores it
+2. Data - contains the rosbags 
+3. Analysis script - individual_analysis. script for 15 minute data. allan_variance.m script for 3.5 hour data. 
+4. Report.pdf - The report
+
+-- We attempted to collect 5 hour data but due to a disconnection after 3.5 hours, we were unable to do so and could not figure out the logistics to retake the data. 
+-- The 3.5 hour data is divided into 7 30-minute bags and concatenated for analysis later on. This was done to get overall sufficient data.
