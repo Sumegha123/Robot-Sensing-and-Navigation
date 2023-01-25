@@ -1,0 +1,4 @@
+<launch>
+	<node name="GPS_node" pkg="lab4" type="gps_driver.py" />
+	<node name="IMU_node" pkg="lab4" type="imu_driver.py" />
+</launch>

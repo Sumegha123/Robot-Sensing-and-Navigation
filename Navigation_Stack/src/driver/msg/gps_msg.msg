@@ -1,0 +1,8 @@
+Header GPS_Data
+float64 lat
+float64 lon
+float64 alt
+float64 utm_easting
+float64 utm_northing
+int32 zone
+string letter
