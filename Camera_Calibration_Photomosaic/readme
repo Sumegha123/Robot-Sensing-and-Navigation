@@ -1,0 +1,7 @@
+LAB5
+
+The repository src contains the following:
+1. Image_Resources: contains the image datasets used the tasks
+2. Scripts: contains the Matlab scripts for all the tasks
+	The lab5_5.m script is used for step 5,6,7 by changing the directory names
+4. Lab5_report.pdf - The Lab 5 report
