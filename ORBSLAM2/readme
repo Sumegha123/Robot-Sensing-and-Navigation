@@ -1,0 +1,13 @@
+The repository contains the following:
+1. Scripts
+	main.py - Script for image acquisition
+	associate.py - Script for colour and depth image association based on best timestamp match
+	GPS.py - Script to read GPS data through serial port
+	trajectory analysis.py - Script to generate plots of results
+
+2. ORBSLAM2Presentation - Final presentation containing all the details about the project
+
+3. ORBSLAM2 code
+	Changes made in the orb slam 2: We used the latest OpenCV version (4.5.5) and Eigen3 but the author used opencv3 and an older version of Eigen to test orb slam 2. So, we encountered errors while building the library. There were some deprecated class methods and some gcc c++ flag issues. So, we had to change all the CMakeLists files, modify source files and update some of the header files to compile Orb slam 2 locally.
+
+
